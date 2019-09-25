@@ -7,9 +7,9 @@ function processHTML(){
         return src('src/*.html').pipe(htmlmin({collapseWhitespace:true})).pipe(dest('dist'));
 }
 
-function imageminify(){
-        return src('src/img/**/*') .pipe(imagemin()) .pipe(dest('dist/img/'));
-}
+// /*function imageminify(){
+//         return src('src/img/**/*') .pipe(imagemin()) .pipe(dest('dist/img/'));
+// }*/
 
 function jsminify(){
         return src('src/*js').pipe(uglify()).pipe(dest('dist/'));
