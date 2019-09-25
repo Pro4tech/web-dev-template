@@ -1,0 +1,25 @@
+{
+  "name": "web-dev-template",
+  "version": "1.0.0",
+  "description": "this is a template for websites with taskrunners configured for html, scss and javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adgai19/web-dev-template.git"
+  },
+  "author": "adgai19",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adgai19/web-dev-template/issues"
+  },
+  "homepage": "https://github.com/adgai19/web-dev-template#readme",
+  "dependencies": {
+    "gulp": "^4.0.2",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-uglify": "^3.0.2",
+    "jslint": "^0.12.1"
+  }
+}
